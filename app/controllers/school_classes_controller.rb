@@ -11,10 +11,11 @@ class SchoolClassesController < ApplicationController
   end
   
   def edit 
-     @school_class = SchoolClass.create(school_class_params(:title, :room_number))
+     @school_class = SchoolClass.
   end 
   
   def update 
+   @school_class = SchoolClass.create(school_class_params(:title, :room_number))
   end 
   
   private 
