@@ -169,3 +169,5 @@ Processing by SchoolClassesController#show as HTML
 Completed 200 OK in 15ms (Views: 10.3ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/school_classes/new" for 35.138.220.199 at 2019-11-09 17:52:53 +0000
+Processing by SchoolClassesController#new as HTML
