@@ -234,3 +234,12 @@ Redirected to http://167.99.15.173:35120/school_classes/2
 Completed 302 Found in 18ms (ActiveRecord: 8.9ms)
 
 
+Started GET "/school_classes/2" for 35.138.220.199 at 2019-11-09 17:53:49 +0000
+Processing by SchoolClassesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSchoolClass Load (0.1ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering school_classes/show.html.erb within layouts/application
+  Rendered school_classes/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 34.8ms | ActiveRecord: 0.1ms)
+
+
