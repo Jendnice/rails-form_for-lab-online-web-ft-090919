@@ -10,11 +10,10 @@ class SchoolClassesController < ApplicationController
   
   def show 
     @school_class = SchoolClass.find(params[:id])
-    render 'show.html.erb'
   end
   
   def edit 
-     @school_class = SchoolClass.find(params[:id])
+    @school_class = SchoolClass.find(params[:id])
   end 
   
   def update 
