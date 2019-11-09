@@ -190,3 +190,8 @@ Started GET "/school_classes/2" for 35.138.220.199 at 2019-11-09 17:52:58 +0000
 Processing by SchoolClassesController#show as HTML
   Parameters: {"id"=>"2"}
   [1m[36mSchoolClass Load (0.3ms)[0m  [1m[34mSELECT  "school_classes".* FROM "school_classes" WHERE "school_classes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering school_classes/show.html.erb within layouts/application
+  Rendered school_classes/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 38.1ms | ActiveRecord: 0.3ms)
+
+
