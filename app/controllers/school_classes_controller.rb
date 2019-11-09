@@ -10,7 +10,7 @@ class SchoolClassesController < ApplicationController
   
   def show 
     @school_class = SchoolClass.find(params[:id])
-    render 
+    render 'show.html.erb'
   end
   
   def edit 
