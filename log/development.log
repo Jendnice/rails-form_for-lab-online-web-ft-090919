@@ -150,3 +150,13 @@ Processing by SchoolClassesController#new as HTML
 Completed 200 OK in 291ms (Views: 284.1ms | ActiveRecord: 0.9ms)
 
 
+Started POST "/school_classes" for 35.138.220.199 at 2019-11-09 17:51:50 +0000
+Processing by SchoolClassesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ugn0XauemFQ7+aP+teCGO6/rCe8JHUutwnmz0vGl/JF6BV03QJXs00L+Il6taXzMfuRhvUjhILT2gAQ0cL163Q==", "school_class"=>{"title"=>"Geometry", "room_number"=>"200"}, "commit"=>"Create School class"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "school_classes" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2019-11-09 17:51:50.646870"], ["updated_at", "2019-11-09 17:51:50.646870"]]
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://167.99.15.173:35120/school_classes/1
+Completed 302 Found in 22ms (ActiveRecord: 11.1ms)
+
+
